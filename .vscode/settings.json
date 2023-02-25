@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/458aa61c-c7a0-4f32-9437-54dfbf59014a/AppServices/subscriptions/458aa61c-c7a0-4f32-9437-54dfbf59014a/resourceGroups/az900c/providers/Microsoft.Web/sites/nextjstest123",
+    "appService.deploySubpath": "."
+}
