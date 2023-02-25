@@ -17,7 +17,7 @@ const AboutPage = ({ names }: AboutPageProps) => (
       {"Showing TOP 10 names."}
       {names
         ? names.map((name, idx) => (
-            <p>
+            <p key={idx}>
               {idx}:{name}
             </p>
           ))

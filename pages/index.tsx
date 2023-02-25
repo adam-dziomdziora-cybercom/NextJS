@@ -20,7 +20,9 @@ const IndexPage = () => {
       <p>SWR: {data ? data[0].name : null}</p>
       <div>
         {data2
-          ? data2[0].data.slice(0, 100).map((name) => <p>{name}</p>)
+          ? data2[0].data
+              .slice(0, 100)
+              .map((name, idx) => <p key={idx}>{name}</p>)
           : "not yet"}
       </div>
       <p>
